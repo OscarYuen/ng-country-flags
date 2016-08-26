@@ -1,8 +1,7 @@
 {
   "name": "ng-country-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Oscar Yuen",
-  "private": "true",
   "licenses": [
     {
       "type": "MIT",
@@ -11,18 +10,32 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/OscarYuen/angular-countryflags-directive"
+    "url": "git+https://github.com/OscarYuen/angular-countryflags-directive.git"
   },
   "dependencies": {
-	"angular": "1.5.8"
+    "angular": "1.5.8"
   },
   "devDependencies": {
-  	"flag-icon-css": "2.4.0",
+    "flag-icon-css": "2.4.0",
     "grunt": "1.0.1",
     "grunt-contrib-less": "1.4.0",
     "grunt-contrib-cssmin": "1.0.1",
     "grunt-contrib-uglify": "2.0.0",
-	"grunt-contrib-concat": "1.0.0",
-	"grunt-contrib-copy": "1.0.0"
-  }
+    "grunt-contrib-concat": "1.0.0",
+    "grunt-contrib-copy": "1.0.0"
+  },
+  "description": "AngularJS directive to embed country flags by using flag-icon-css library",
+  "bugs": {
+    "url": "https://github.com/OscarYuen/angular-countryflags-directive/issues"
+  },
+  "homepage": "https://github.com/OscarYuen/angular-countryflags-directive#readme",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "countryflags",
+    "angular"
+  ],
+  "license": "MIT"
 }
