@@ -1,0 +1,28 @@
+{
+  "name": "ng-country-flags",
+  "version": "1.0.0",
+  "author": "Oscar Yuen",
+  "private": "true",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OscarYuen/angular-countryflags-directive"
+  },
+  "dependencies": {
+	"angular": "1.5.8"
+  },
+  "devDependencies": {
+  	"flag-icon-css": "2.4.0",
+    "grunt": "1.0.1",
+    "grunt-contrib-less": "1.4.0",
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-uglify": "2.0.0",
+	"grunt-contrib-concat": "1.0.0",
+	"grunt-contrib-copy": "1.0.0"
+  }
+}
