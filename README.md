@@ -19,8 +19,8 @@ of a country). If you want to have a squared version flag
 then add the attribute 'isSquare="true"' as well. Example:
 
 ```html
-<countryflags country="en">English</countryflags>
-<countryflags country="en" isSquare="true">English <span class="caret"></span></countryflags>
+<countryflag country="en">English</countryflag>
+<countryflag country="en" isSquare="true">English <span class="caret"></span></countryflag>
 ```
 
 ## Development
