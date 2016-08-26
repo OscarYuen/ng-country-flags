@@ -1,13 +1,8 @@
 {
   "name": "ng-country-flags",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Oscar Yuen",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OscarYuen/angular-countryflags-directive.git"
@@ -36,6 +31,5 @@
   "keywords": [
     "countryflags",
     "angular"
-  ],
-  "license": "MIT"
+  ]
 }
