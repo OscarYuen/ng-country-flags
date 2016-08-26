@@ -1,9 +1,9 @@
-# angular-countryflags-directive
+# ng-country-flags
 AngularJS directive to embed country flags by using flag-icon-css library
 
 Install
 -------
-You can either [download](https://github.com/OscarYuen/angular-countryflags-directive/archive/master.zip)
+You can either [download](https://github.com/OscarYuen/ng-country-flags/archive/master.zip)
 the whole project as is or install it via NPM:
 
 ```bash
