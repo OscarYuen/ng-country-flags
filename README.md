@@ -16,11 +16,11 @@ Put the css, flags, js folders under dist foler into the path where your appliac
 Use the tag 'countryflags' with attribute 'country="xx"' (where `xx` is the
 [ISO 3166-1-alpha-2 code](http://www.iso.org/iso/country_names_and_code_elements)
 of a country). If you want to have a squared version flag
-then add the attribute 'isSquare="true"' as well. Example:
+then add the attribute 'is-square="true"' as well. Example:
 
 ```html
 <countryflag country="en">English</countryflag>
-<countryflag country="en" isSquare="true">English <span class="caret"></span></countryflag>
+<countryflag country="en" is-square="true">English <span class="caret"></span></countryflag>
 ```
 
 ## Development
