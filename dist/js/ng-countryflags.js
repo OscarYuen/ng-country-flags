@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.countryflags', []);
+        .module('ng-countryflags', []);
 })();
 
 
@@ -18,8 +18,8 @@
             restrict: 'E',
             transclude: true,
             template:
-                    '<span ng-if="scope.isSquare" class="flag-icon flag-icon-{{ country }} flag-icon-square"></span>' +
-                    '<span ng-if="!scope.isSquare" class="flag-icon flag-icon-{{ country }}"></span>' +
+                    '<span ng-if="isSquare" class="flag-icon flag-icon-{{ country }} flag-icon-square"></span>' +
+                    '<span ng-if="!isSquare" class="flag-icon flag-icon-{{ country }}"></span>' +
                     '<ng-transclude></ng-transclude>',
             scope: {
                 country: '@',
@@ -39,7 +39,7 @@
                 }
             });
 
-            scope.$watch('isSquare', function(value) {
+            attrs.$observe('isSquare', function(value) {
               if(value != null){
                  scope.isSquare = value;
               }
