@@ -1,4 +1,8 @@
 # ng-country-flags
+[![GitHub license](https://img.shields.io/github/license/OscarYuen/go-graphql-starter.svg)](https://github.com/OscarYuen/go-graphql-starter/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dm/ng-country-flags.svg)](https://www.npmjs.com/package/ng-country-flags)
+[![scope](https://img.shields.io/npm/v/ng-country-flags.svg)](https://www.npmjs.com/package/ng-country-flags)
+
 AngularJS directive to embed country flags by using flag-icon-css library
 
 Install
