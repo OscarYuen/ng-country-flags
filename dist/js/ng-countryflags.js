@@ -35,7 +35,7 @@
 
             attrs.$observe('country',function(value){
                 if(value){
-                    scope.country = angular.lowercase(value);
+                    scope.country = value.toLowerCase();
                 }
             });
 
